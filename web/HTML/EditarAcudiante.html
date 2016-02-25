@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <center>
+        <h1>EDITAR DEL ACUDIENTE</h1>
+        
+        
+
+        <form name="BUSCAR" action=../JSP/MuduloAcudiente/EditarAcudiente.jsp method="POST">
+
+            Documento Identdad:  <input type="text" name="documento" value="" required placeholder="Ingrese Numero" />
+            <input type="submit" value="BUSCAR" /><br><br>
+      
+            
+       
+        </form>
+        
+            Primer Nombre:<font color="red">*</font> <input type="text" name="primerNombre" value="" required="" />
+            Segundo Nombre: <input type="text" name="SegundoNombre" value="" /><br>
+            Primer Apellido:<font color="red">*</font> <input type="text" name="primerApellido" value="" required="" />
+            Segundo Apellido:<input type="text" name="segundoApellido" value="" /><br>
+            Dirección Residencia:<font color="red">*</font><input type="text" name="direccionResidencia" value="" required=""/>
+            SEXO: <font color="red">*</font> <select name="SEXO" required>
+                <option>-Seleccione-</option>
+                <option>MASCULINO</option>
+                <option>FEMENINO</option>
+            </select><br>
+            Telefono Celular:<font color="red">*</font><input type="text" name="telCelular" value="" />
+            Telefono Fijo: <input type="text" name="telFijo" value="" placeholder="5864123 ó 5865123"/><br>
+            Correo Electronico: <input type="text" name="correoElectronico" value="" placeholder="ejemplo@ejemplo.com" />
+
+           Parentezco:  <select name="parentesco">
+               <option>-Seleccione-</option>
+                <option>PADRES O FAMILIARES</option>
+                <option>OTRO</option>
+            </select>
+
+
+
+            <br><br>
+
+            <input type="submit" value="ACEPTAR" />
+
+ 
+
+   </center>
+    </body>
+</html>
